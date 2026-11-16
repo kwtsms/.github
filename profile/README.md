@@ -117,6 +117,9 @@ curl -X POST https://www.kwtsms.com/API/send/ \
 
 ### AI assistants and the terminal
 
+For AI tools, start with the MCP server (no install, test mode by default, the AI never sees your password) and add
+the kwtSMS skill next to it. Use the CLI for terminal agents, scripts and cron.
+
 <table>
 <tr><td width="44" align="center"><img src="https://raw.githubusercontent.com/kwtsms/.github/main/profile/assets/icons/s-mcp.png" width="32" height="32" alt=""></td><td width="250"><a href="https://github.com/kwtsms/kwtsms-mcp"><b>MCP</b></a></td><td width="660">Open protocol that connects AI assistants to outside tools</td></tr>
 <tr><td width="44" align="center"><img src="https://raw.githubusercontent.com/kwtsms/.github/main/profile/assets/icons/s-claude.png" width="32" height="32" alt=""></td><td width="250"><a href="https://github.com/kwtsms/kwtsms-ai"><b>Claude Code</b></a></td><td width="660">Anthropic's coding assistant for the terminal</td></tr>
